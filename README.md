@@ -32,7 +32,7 @@ If carCurrentFloor is not 0 then, following conditions checked:
 - If 818 is TRUE and 817 is [FALSE](#false),
 	- carcurrentFloor is equal to 1.
 
-## Normal Mode
+## Calibration Mode
 
 # Abbreviations
 

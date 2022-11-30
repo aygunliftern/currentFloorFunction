@@ -13,6 +13,8 @@ Normal Mode has 3 part of conditions:
 
 If carCurrentFloor is not 0 then, following conditions checked:
 - If elevator is in doorzone
+	- enableUpdateUp is TRUE
+	- enableUpdateDown is TRUE
 - If elevator is not in doorzone and 142 signal is TRUE and inspection up signal (inspectionUpNew) is TRUE or moving up signal (movingUpNew) is TRUE and enableUpdateUp is TRUE and current floor is less than total floor,
 	 - Increment carCurrentFloor.
 	 - enableUpdateUp is FALSE

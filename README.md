@@ -22,7 +22,7 @@ If carCurrentFloor is not 0 then, following conditions checked:
 - If elevator is not in doorzone and 142 signal is [TRUE](#true) and inspection up signal (inspectionUpNew) is [TRUE](#true) or moving up signal (movingUpNew) is [TRUE](#true) and enableUpdateUp is [TRUE](#true) and current floor is less than total floor,
 	 - Increment carCurrentFloor.
 	 - enableUpdateUp is [FALSE](#false)
-- If elevator is not in doorzone and 141 signal is [TRUE](#true) and inspection down signal (inspectionUpNew) is TRUE or moving down signal (movingUpNew) is [TRUE](#true) and enableUpdateDown is [TRUE](#true) and current floor is bigger than first floor,
+- If elevator is not in doorzone and 141 signal is [TRUE](#true) and inspection down signal (inspectionDownNew) is TRUE or moving down signal (movingDownNew) is [TRUE](#true) and enableUpdateDown is [TRUE](#true) and current floor is bigger than first floor,
 	- Decrement carCurrentFloor.
 	- enableUpdateDown is [FALSE](#false)
 

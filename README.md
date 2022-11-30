@@ -9,8 +9,7 @@ This part includes conditions after system found it's first floor in Calibration
 
 If carCurrentFloor is not 0 then, following conditions checked:
 - If elevator is in doorzone
-- If elevator is not in doorzone and 142 signal is 1 and inspection up signal (inspectionUpNew) is TRUE or moving up signal (movingUpNew) is TRUE,
-	 - If current floor is less than total floor,
-	 	- Increment carCurrentFloor
-	 - If 
-- dsd
+- If elevator is not in doorzone and 142 signal is TRUE and inspection up signal (inspectionUpNew) is TRUE or moving up signal (movingUpNew) is TRUE and current floor is less than total floor,
+	 - Increment carCurrentFloor.
+- If elevator is not in doorzone and 141 signal is TRUE and inspection down signal (inspectionUpNew) is TRUE or moving down signal (movingUpNew) is TRUE and current floor is bigger than first floor,
+	- sa

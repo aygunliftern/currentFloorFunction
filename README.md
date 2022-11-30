@@ -39,6 +39,11 @@ This part include finding first floor of the elevator.
 - If ML1 signal (iML1) is [TRUE](#true) and ML2 signal (iML2) is [TRUE](#true) and 141 signal (iSignal141) is [TRUE](#true) and 142 signal (iSignal142) is [TRUE](#true),
 	- carCurrentFloor equal to 1.
 
+# Expressions
+
+ ##### **carCurrentFloor**
+ > indicates current floor of elevator.
+
 # Abbreviations
 
  ##### **FALSE** 

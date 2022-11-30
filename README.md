@@ -1,7 +1,7 @@
 # Contents
 
 1. [Normal Mode](#normal-mode)
-2. [Calibration Mode](#normal-mode-1)
+2. [Calibration Mode](#calibration-mode)
 
 ## Normal Mode
 

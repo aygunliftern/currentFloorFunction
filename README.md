@@ -34,6 +34,11 @@ If carCurrentFloor is not 0 then, following conditions checked:
 
 ## Calibration Mode
 
+This part include finding first floor of the elevator.
+
+- If ML1 signal (iML1) is [TRUE](#true) and ML2 signal (iML2) is [TRUE](#true) and 141 signal (iSignal141) is [TRUE](#true) and 142 signal (iSignal142) is [TRUE](#true),
+	- carCurrentFloor equal to 1.
+
 # Abbreviations
 
  ##### **FALSE** 

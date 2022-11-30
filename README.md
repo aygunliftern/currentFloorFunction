@@ -1,9 +1,9 @@
 # Contents
 
-1. [Normal Mode](#normal-mode)
-2. [Calibration Mode](#calibration-mode)
+1. [Normal Condition](#normal-condition)
+2. [Calibration Condition](#calibration-condition)
 
-## Normal Mode
+## Normal Condition
 
 This part includes conditions after system found it's first floor in Calibration Mode.
 
@@ -32,7 +32,7 @@ If [carCurrentFloor](#carcurrentfloor) is not 0 then, following conditions check
 - If 818 is TRUE and 817 is [FALSE](#false),
 	- [carCurrentFloor](#carcurrentfloor) is equal to 1.
 
-## Calibration Mode
+## Calibration Condition
 
 This part include finding first floor of the elevator.
 

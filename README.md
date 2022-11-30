@@ -15,19 +15,19 @@ Normal Mode has 3 part of conditions:
 #### Elevator is in Doorzone
 If carCurrentFloor is not 0 then, following conditions checked:
 - If carCurrentFloor is bigger than 0
-	- enableUpdateUp is TRUE
-	- enableUpdateDown is TRUE
+	- enableUpdateUp is [TRUE](#true)
+	- enableUpdateDown is [TRUE](#true)
 
 #### Elevator is not in Doorzone
-- If elevator is not in doorzone and 142 signal is TRUE and inspection up signal (inspectionUpNew) is TRUE or moving up signal (movingUpNew) is TRUE and enableUpdateUp is TRUE and current floor is less than total floor,
+- If elevator is not in doorzone and 142 signal is [TRUE](#true) and inspection up signal (inspectionUpNew) is [TRUE](#true) or moving up signal (movingUpNew) is [TRUE](#true) and enableUpdateUp is [TRUE](#true) and current floor is less than total floor,
 	 - Increment carCurrentFloor.
 	 - enableUpdateUp is [FALSE](#false)
-- If elevator is not in doorzone and 141 signal is TRUE and inspection down signal (inspectionUpNew) is TRUE or moving down signal (movingUpNew) is TRUE and enableUpdateDown is TRUE and current floor is bigger than first floor,
+- If elevator is not in doorzone and 141 signal is [TRUE](#true) and inspection down signal (inspectionUpNew) is TRUE or moving down signal (movingUpNew) is [TRUE](#true) and enableUpdateDown is [TRUE](#true) and current floor is bigger than first floor,
 	- Decrement carCurrentFloor.
 	- enableUpdateDown is [FALSE](#false)
 
 #### Elevator is on Limits
-- If 818 is FALSE and 817 is TRUE,
+- If 818 is FALSE and 817 is [TRUE](#true),
 	- carCurrentFloor is equal to total number of floors.
 - If 818 is TRUE and 817 is [FALSE](#false),
 	- carcurrentFloor is equal to 1.

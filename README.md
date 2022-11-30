@@ -1,6 +1,6 @@
 # Contents
 
-1. Normal Mode
+1. [Normal Mode](#normal-mode)
 2. Calibration Mode
 
 ## Normal Mode

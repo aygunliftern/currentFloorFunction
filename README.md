@@ -1,6 +1,9 @@
 # Contents
 
-1. Cruise Mode
-2. Limits and Finding First Floor
+1. Normal Mode
+2. Calibration Mode
 
-# Cruise Mode
+# Normal Mode
+
+This part includes conditions after system found it's first floor in Calibration Mode.
+

@@ -32,3 +32,10 @@ If carCurrentFloor is not 0 then, following conditions checked:
 - If 818 is TRUE and 817 is FALSE,
 	- carcurrentFloor is equal to 1.
 
+
+# Abbreviations
+
+ ##### **FALSE** 
+ > means the input is 0
+ ##### **TRUE**
+ > means the input is 1

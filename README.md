@@ -9,7 +9,7 @@ This part includes conditions after system found it's first floor in Calibration
 
 Normal Mode has 3 part of conditions:
 1. [Elevator is in Doorzone](#elevator-is-in-doorzone)
-2. Elevator is not in Doorzone
+2. [Elevator is not in Doorzone](#elevator-is-not-in-doorzone)
 3. Elevator is on Limits
 
 #### Elevator is in Doorzone

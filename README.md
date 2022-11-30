@@ -10,5 +10,7 @@ This part includes conditions after system found it's first floor in Calibration
 If carCurrentFloor is not 0 then, following conditions checked:
 - If elevator is in doorzone
 - If elevator is not in doorzone and 142 signal is 1 and inspection up signal (inspectionUpNew) is TRUE or moving up signal (movingUpNew) is TRUE,
-	 - counterstatus_brcactive set to [STATE_SET](#state_set)
+	 - If current floor is less than total floor,
+	 	- Increment carCurrentFloor
+	 - If 
 - dsd

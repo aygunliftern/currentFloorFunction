@@ -36,6 +36,6 @@ If carCurrentFloor is not 0 then, following conditions checked:
 # Abbreviations
 
  ##### **FALSE** 
- > means the input is 0
+ > means it is 0
  ##### **TRUE**
- > means the input is 1
+ > means it is 1

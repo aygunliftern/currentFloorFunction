@@ -5,9 +5,9 @@
 
 ## Normal Condition
 
-This part includes conditions after system found it's first floor in Calibration Mode.
+This part includes conditions after system found it's first floor in Calibration Conditions.
 
-Normal Mode has 3 part of conditions:
+Normal Condition consist of 3 part:
 1. [Elevator is in Doorzone](#elevator-is-in-doorzone)
 2. [Elevator is not in Doorzone](#elevator-is-not-in-doorzone)
 3. [Elevator is on Limits](#elevator-is-on-limits)
